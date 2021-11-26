@@ -38,6 +38,7 @@ sudo apt update
 sudo apt upgrade
 ```
 Install Docker software and add ubuntu user as a Docker user:
+Suggest to reboot the EC2 after adding the user in order to get settings to take effect.
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
